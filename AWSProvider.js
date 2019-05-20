@@ -4,8 +4,8 @@ const isLocal = process.env.TODOMANAGERLOCAL
 if (!isLocal) {
 AWS.config.update({
 credentials: {
-accessKeyId: 'AKIA3HRETHUVLBP3M7MY',
-secretAccessKey: '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'
+accessKeyId: 'accesskey',
+secretAccessKey: 'secretkey'
 }
 });
 } else {
